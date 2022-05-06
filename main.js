@@ -35,10 +35,11 @@ async function getStory() {
   let h6 = document.querySelector("#author");
   h6.innerText = data.author;
 }
-
+// Ties getting new story to button
 let storyButton = document.querySelector("#story-button");
 storyButton.addEventListener("click", getStory);
 
+// 4 functions to hide divs or borders untill they're called
 function tetrisFunction() {
   let T = document.getElementById("tetrisDiv");
   T.style.display = "block";
@@ -57,10 +58,12 @@ function adventureBorder() {
   T.style.display = "block";
 }
 
+// click and add a prompt to get name and age for an adventure
 var x = document.getElementById("myBtn");
 x.addEventListener("click", myName);
 x.addEventListener("click", myAge);
 
+// Enter your name, and return a greeting.
 function myName() {
   let txt;
   let person = prompt("Please enter your name:", "Harry Potter");
@@ -72,18 +75,19 @@ function myName() {
   document.getElementById("p1").innerHTML = txt;
 }
 
+// Enter your age and return what kind of adventure you're going on.
 function myAge() {
   let txt;
   let age = prompt("Please enter your age:", 12);
   if (age == null || age == "") {
-    txt = "User cancelled the prompt."; // if null cancel prompt
+    txt = "User cancelled the prompt."; 
   } else if (age == 11) {
     txt =
-      "Welcome to Hogwarts! Professor McGonagall will be along to collect you shortly."; //return for 11 Hogwarts
+      "Welcome to Hogwarts! Professor McGonagall will be along to collect you shortly."; 
   } else if (age >= 50) {
-    txt = "You're going on an adventure! Say hi to Smaug :) "; // return for age 50+
+    txt = "You're going on an adventure! Say hi to Smaug :) "; 
   } else if (age > 11 && age <= 15) {
-    txt = "Go through your wardrobe, you may just find Narnia!"; // Narnia parameters 11 - 15
+    txt = "Go through your wardrobe, you may just find Narnia!"; 
   } else if (age < 11 && age >= 0) {
     txt =
       "You might be a bit young for magic yet, but stay vigilant! You never know when magical nannies will appear."; // for small children
