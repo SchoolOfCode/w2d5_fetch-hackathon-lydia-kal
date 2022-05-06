@@ -42,6 +42,7 @@ body {
 }
 
 #main-button {
+    font-family: "Oswald", sans-serif;
     background: rgb(233, 212, 96);
     color: black;
     border: 1px solid #eee;
@@ -151,6 +152,7 @@ body {
 }
 
 #story-button {
+    font-family: "Oswald", sans-serif;
     background: rgb(233, 212, 96);
     color: black;
     border: 1px solid #eee;
@@ -173,6 +175,7 @@ body {
 }
 
 #tetris-button {
+    font-family: "Oswald", sans-serif;
     background: rgb(233, 212, 96);
     color: black;
     border: 1px solid #eee;
