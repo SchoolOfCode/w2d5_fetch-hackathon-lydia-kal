@@ -4,7 +4,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: ;
 }
 
 #dog-image {
@@ -43,7 +42,7 @@ body {
 }
 
 #main-button {
-    background: red#;
+    background: rgb(233, 212, 96);
     color: black;
     border: 1px solid #eee;
     border-radius: 20px;
@@ -56,7 +55,7 @@ body {
 }
 
 #main-button:hover {
-    background: darkred;
+    background: rgb(22, 160, 133);
     color: #fff;
     border: 1px solid #eee;
     border-radius: 20px;
@@ -65,7 +64,13 @@ body {
 }
 
 #activity-response {
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 0.5;
+    border: 1px dotted black;
+    width: 600px;
+    
 
 }
 
@@ -143,4 +148,48 @@ body {
     border: 0;
     border: 1px dotted black;
     width: 600px;
+}
+
+#story-button {
+    background: rgb(233, 212, 96);
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    height: 100px;
+    width: 500px;
+    font-size: 1.5em;
+    font-weight: strong;
+}
+
+#story-button:hover {
+    background: rgb(22, 160, 133);
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+#tetris-button {
+    background: rgb(233, 212, 96);
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    height: 100px;
+    width: 500px;
+    font-size: 1.5em;
+    font-weight: strong;
+}
+
+#tetris-button:hover {
+    background: rgb(22, 160, 133);
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
 }

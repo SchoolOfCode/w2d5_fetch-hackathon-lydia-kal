@@ -23,26 +23,39 @@
     <div class="flex-container">
     <p id="question">How many of you are bored?</p>
     <input type="number" min="1" max="5" oninput="validity.valid||(value='');" id="numberField">
-    <button id="main-button">How about...?</button>
+    <button id="main-button" onclick="activityBorder()">How about...?</button>
     </div>
     <h2></h2>
    
     <div>
-      <p id="activity-response"></p>
+      <p id="activity-response" style="display:none"></p>
+      <br>
+      <br>
     </div>
 <!-- <div class="story-container">  -->
-    <button id="story-button">Do you want to read a story?</button>
+  <br>
+  <br>
+    <button id="story-button" onclick="storyBorder()">Or do you want to read a short story?</button>
     <h5 id="title"></h5>
     <h6 id="author"></h6>
-    <p id="story-text"></p>
+    <p id="story-text" style="display:none"></p>
+<br>
+<br>
+<br>
+<br>
 
+<button id="tetris-button" onclick="tetrisFunction()">Or how do you feel about Tetris...?</button>
+<div id="tetrisDiv" style="display:none">
     <iframe src="https://dionyziz.com/graphics/canvas-tetris/" frameborder="0" width='500' height='700'></iframe>
+</div>
+
+
 </div>
     
 
-
+<!-- 
     <h3 id="history">Previous suggestions</h3>
-    <ol id="previousIdeas"></ol>
+    <ol id="previousIdeas"></ol> -->
     <script src="main.js"></script>
   </body>
 </html>

@@ -36,3 +36,17 @@ async function getStory() {
 
 let storyButton = document.querySelector("#story-button");
 storyButton.addEventListener("click", getStory);
+
+function tetrisFunction() {
+  let T = document.getElementById("tetrisDiv");
+  T.style.display = "block";
+}
+
+function activityBorder() {
+  let T = document.getElementById("activity-response");
+  T.style.display = "block";
+}
+function storyBorder() {
+  let T = document.getElementById("story-text");
+  T.style.display = "block";
+}
