@@ -10,18 +10,21 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <img
+  <body class="main-body">
+    <h1 id="main-heading">Bored?</h1>
+    <img id="dog-image"
       src="./continental-bulldog-g8380f4144_1920.jpg"
       width = 500px; 
           />
-    <h1 id="main-heading">Bored?</h1>
-    <p>How many of you are bored?</p>
+          <br>
+          <br>
+    <div class="flex-container">
+    <p id="question">How many of you are bored?</p>
     <input type="number" min="1" max="5" oninput="validity.valid||(value='');" id="numberField">
-    <br>
-    <br>
     <button id="main-button">How about...?</button>
+    </div>
     <h2></h2>
+   
     <div>
       <p id="activity-response">API response</p>
     </div>
