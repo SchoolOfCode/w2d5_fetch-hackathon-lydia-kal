@@ -14,7 +14,8 @@ body {
 #main-heading {
     font-size: 20em;
     position: absolute;
-    left: 0;
+    left: -60px;
+    top: 0;
     transform: rotate(-90deg);
     
 }
