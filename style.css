@@ -13,13 +13,10 @@ body {
 
 #main-heading {
     font-size: 20em;
-    top: 0;
-    left: 0;
-  
-      
     position: absolute;
+    left: 0;
     transform: rotate(-90deg);
-    /* padding-right: 15em; */
+    
 }
 
 #question {
@@ -32,6 +29,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .flex-container>div {
