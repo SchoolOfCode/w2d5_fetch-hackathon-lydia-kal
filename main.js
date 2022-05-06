@@ -14,13 +14,13 @@ let mainButton = document.querySelector("#main-button");
 mainButton.addEventListener("click", getActivity);
 
 // Adding previous activity suggestions to list
-function addToList(activity) {
-  let list = document.querySelector("#previousIdeas");
-  let newListItem = document.createElement("li");
-  newListItem.innerText = activity;
-  list.append(newListItem);
-  console.log(newListItem.innerHTML);
-}
+// function addToList(activity) {
+//   let list = document.querySelector("#previousIdeas");
+//   let newListItem = document.createElement("li");
+//   newListItem.innerText = activity;
+//   list.append(newListItem);
+//   console.log(newListItem.innerHTML);
+// }
 
 // Get a short story from the shortstories API
 
@@ -80,14 +80,14 @@ function myAge() {
   let txt;
   let age = prompt("Please enter your age:", 12);
   if (age == null || age == "") {
-    txt = "User cancelled the prompt."; 
+    txt = "User cancelled the prompt.";
   } else if (age == 11) {
     txt =
-      "Welcome to Hogwarts! Professor McGonagall will be along to collect you shortly."; 
+      "Welcome to Hogwarts! Professor McGonagall will be along to collect you shortly.";
   } else if (age >= 50) {
-    txt = "You're going on an adventure! Say hi to Smaug :) "; 
+    txt = "You're going on an adventure! Say hi to Smaug :) ";
   } else if (age > 11 && age <= 15) {
-    txt = "Go through your wardrobe, you may just find Narnia!"; 
+    txt = "Go through your wardrobe, you may just find Narnia!";
   } else if (age < 11 && age >= 0) {
     txt =
       "You might be a bit young for magic yet, but stay vigilant! You never know when magical nannies will appear."; // for small children
