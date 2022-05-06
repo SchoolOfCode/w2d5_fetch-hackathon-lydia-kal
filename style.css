@@ -196,3 +196,36 @@ body {
     box-shadow: 5px 5px 5px #eee;
     text-shadow: none;
 }
+#myBtn {
+    font-family: "Oswald", sans-serif;
+    background: rgb(233, 212, 96);
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    height: 100px;
+    width: 500px;
+    font-size: 1.5em;
+    font-weight: strong;
+}
+
+#myBtn:hover {
+    background: rgb(22, 160, 133);
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+#adventureDiv {
+    font-size: 1em;
+    text-align: center;
+        margin: 0;
+        padding: 0.5;
+        border: 0;
+        border: 1px dotted black;
+        width: 600px;
+
+}
