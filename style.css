@@ -120,3 +120,25 @@ body {
     /* margin-top: 50vh; */
     /* transform: translateY(-50%); */
 }
+
+#title {
+    font-size: 3em;
+    margin: 0;
+    padding: 0.5;
+    border: 0;
+    align-items: center;
+    border: 1px; 1px; black;
+
+}
+#author {
+    font-size: 1em;
+    margin: 0;
+    padding: 0.5;
+    border: 0;
+}
+#title {
+    font-size: 3em;
+    margin: 0;
+    padding: 0.5;
+    border: 0;
+}
