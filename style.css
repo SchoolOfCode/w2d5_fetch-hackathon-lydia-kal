@@ -127,18 +127,20 @@ body {
     padding: 0.5;
     border: 0;
     align-items: center;
-    border: 1px; 1px; black;
+    
 
 }
 #author {
+    font-size: 2em;
+    margin: 0;
+    padding: 0.5;
+    border: 0;
+}
+#story-text {
     font-size: 1em;
     margin: 0;
     padding: 0.5;
     border: 0;
-}
-#title {
-    font-size: 3em;
-    margin: 0;
-    padding: 0.5;
-    border: 0;
+    border: 1px dotted black;
+    width: 600px;
 }
