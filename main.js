@@ -14,7 +14,7 @@ addToList(p.innerText);
 let mainButton = document.querySelector('#main-button');
 mainButton.addEventListener('click', getActivity);
 
-
+// Adding previous activity suggestions to list
 function addToList(activity) {
 let list = document.querySelector('#previousIdeas');
 let newListItem = document.createElement('li');
@@ -25,7 +25,6 @@ console.log(newListItem.innerHTML);
 
 
 // let repeatedQuote = document.querySelectorAll('#kanye-quote-history').innerText;
-
 // if (h1.innerText !== repeatedQuote) {
 //  addToList(h1.innerText);
 // } 
