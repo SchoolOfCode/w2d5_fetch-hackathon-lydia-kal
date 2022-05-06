@@ -17,7 +17,7 @@
           />
     <h1 id="main-heading">Bored?</h1>
     <p>How many of you are bored?</p>
-    <input type="number" id="numberField">
+    <input type="number" min="1" max="5" oninput="validity.valid||(value='');" id="numberField">
     <br>
     <br>
     <button id="main-button">How about...?</button>
